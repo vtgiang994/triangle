@@ -94,7 +94,7 @@
 }
 .search {
     position: absolute;
-    top:0;
+    top:15px;
     right:0;
     color:#dbb075;
 }
