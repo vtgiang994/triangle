@@ -3,6 +3,7 @@
     justify-content: right;
 
 }
+.menu .navbar, .menu .nav {width:100%;}
 #home-slider {
     background: url(../img/home/slider-bg.png) 0 100% repeat-x;
     position: relative;
