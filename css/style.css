@@ -1,0 +1,105 @@
+.menu {
+    display: flex;
+    justify-content: right;
+
+}
+#home-slider {
+    background: url(../img/home/slider-bg.png) 0 100% repeat-x;
+    position: relative;
+}
+#home-slider .main-slider {
+    position: relative;
+    height: 450px;
+}
+#home-slider .slide-text {
+    width: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.btn-sign {
+    border: 1px solid #dbb075;
+    padding: 10px 25px;
+}
+#home-slider .sld-house {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#home-slider .sld-circle1 {
+    position: absolute;
+    right: 430px;
+    bottom: 210px;
+}
+#home-slider .sld-circle2 {
+    position: absolute;
+    right: 420px;
+    bottom: 245px;
+}
+#home-slider .sld-cloud1 {
+    position: absolute;
+    right: 290px;
+    bottom: 250px;
+}
+#home-slider .sld-cloud2 {
+    position: absolute;
+    right: 375px;
+    bottom: 330px;
+}
+#home-slider .sld-cloud3 {
+    position: absolute;
+    right: 75px;
+    bottom: 300px;
+}
+#home-slider .sld-sun {
+    position: absolute;
+    right: 190px;
+    bottom: 300px;
+}
+#home-slider .sld-cycle {
+    position: absolute;
+    right: 500px;
+    bottom: 0;
+}
+/* sevice */
+#servicer {
+    padding-top: 100px;
+}
+#servicer .col-sm-4 {
+    text-align: center;
+}
+/* header */
+#header {
+
+}
+.social-icons a {
+    color: #d3d3d3;
+    margin: 18px;
+}
+.social-icons a:hover {
+    color: #dbb075;
+}
+/* menu */
+.menu li a {
+    color: #000;
+}
+.menu li a:hover, .menu li.active a {
+    color: #d29948;
+}
+.search {
+    position: absolute;
+    top:0;
+    right:0;
+    color:#dbb075;
+}
+.field-toggle {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
